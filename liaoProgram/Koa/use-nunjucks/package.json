@@ -1,0 +1,15 @@
+{
+    "name": "use-nunjucks",
+    "version": "1.0.0",
+    "description": "use nunjucks createHtml",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "keywords": [
+        "nunjucks"
+    ],
+    "dependencies": {
+        "nunjucks": "2.4.3"
+    }
+}

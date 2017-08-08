@@ -1,0 +1,25 @@
+{
+    "name": "use-nunjucks",
+    "version": "1.0.0",
+    "description": "use nunjucks createHtml",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "author": {
+        "name": "penghuiwu"
+    },
+    "keywords": [
+        "koa",
+        "router",
+        "nunjucks"
+    ],
+    "dependencies": {
+        "koa": "2.3.0",
+        "koa-bodyparser": "4.2.0",
+        "koa-router": "7.2.1",
+        "nunjucks": "2.4.3",
+        "mime": "1.3.6",
+        "mz": "2.6.0"
+    }
+}

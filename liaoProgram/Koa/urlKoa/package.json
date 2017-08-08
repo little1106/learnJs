@@ -1,0 +1,22 @@
+{
+    "name": "url-koa2",
+    "version": "1.0.0",
+    "description": "use url-koa2.0 example deal with the url",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async",
+        "router"
+    ],
+    "author": {
+        "name": "penghuiwu"
+    },
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-router": "7.0.0",
+        "koa-bodyparser": "3.2.0"
+    }
+}
