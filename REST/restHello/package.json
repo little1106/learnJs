@@ -1,0 +1,21 @@
+{
+    "name": "hello-rest",
+    "version": "1.0.0",
+    "description": "Hello rest example with async",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": {
+        "name": "penghuiwu"
+    },
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-bodyparser": "4.2.0",
+        "koa-router": "7.2.1"
+    }
+}
