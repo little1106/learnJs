@@ -1,0 +1,25 @@
+{
+    "name": "Koa-Test",
+    "version": "1.0.0",
+    "description": "mocha koa test",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js",
+        "test": "mocha"
+    },
+    "keywords": [
+        "mocha",
+        "koa",
+        "mz/fs",
+        "supertest"
+    ],
+    "author": "penghuiwu",
+    "dependencies": {
+        "mz": "2.6.0",
+        "koa": "2.3.0"
+    },
+    "devDependencies": {
+        "mocha": "3.0.2",
+        "supertest": "3.0.0"
+    }
+}

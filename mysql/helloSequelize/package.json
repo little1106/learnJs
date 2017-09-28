@@ -1,0 +1,21 @@
+{
+    "name": "use-mysql",
+    "version": "1.0.0",
+    "description": "use mysql",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "author": {
+        "name": "penghuiwu"
+    },
+    "keywords": [
+        "koa",
+        "router",
+        "nunjucks"
+    ],
+    "dependencies": {
+        "sequelize": "3.24.1",
+        "mysql": "2.11.1"
+    }
+}
