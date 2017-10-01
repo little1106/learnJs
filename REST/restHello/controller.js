@@ -34,3 +34,4 @@ module.exports = function(dir){
         router  = require('koa-router')();
         addControllers(router,controllers_dir);
         return router.routes();
+}

@@ -1,6 +1,7 @@
 const Koa = require('koa');
 const app = new Koa();
 const controller = require('./controller');
+const bodyParser = require('koa-bodyParser');
 
 app.use(bodyParser());
 app.use(controller());
