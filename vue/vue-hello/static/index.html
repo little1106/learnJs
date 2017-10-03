@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <script src="/static/js/vue.js"></script>
+    </head>
     <body>
         <div>hello world~</div>
+        <div id="vim">
+            <p>Hello, {{name }}!</p>
+            <p>You are {{age}} years old!</p>
+        </div>
+        <script>
+            var vm = new Vue({
+                el:'#vm',
+                data:{
+                    name:'penghuiwu',
+                    age:'21'
+                }
+            });
+            window.vm = vm;
+        </script>
     </body>
 </html>
