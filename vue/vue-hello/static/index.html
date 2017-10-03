@@ -5,19 +5,75 @@
     </head>
     <body>
         <div>hello world~</div>
-        <div id="vim">
+        <div id="vm2">
             <p>Hello, {{name }}!</p>
             <p>You are {{age}} years old!</p>
+            <div>{{name}}
+                <div>{{age}}</div>
+            </div>
+            <form v-on:submit.prevent='register'>
+                <input type="text" v-model='email'>
+                <input type="text" v-model='name'>
+                <input type="submit">
+            </form>
+            <div>
+                <ol>
+                    <li v-for='t in todos'>
+                        <dl>
+                            <dt>
+                                {{t.name}}
+                            </dt>
+                            <dd>
+                                {{t.description}}
+                            </dd>
+                            <dt>
+                                {{t.age}}
+                            </dt>
+                        </dl>
+
+                    </li>
+                </ol>
+            </div>
         </div>
         <script>
+            /*
             var vm = new Vue({
                 el:'#vm',
                 data:{
                     name:'penghuiwu',
-                    age:'21'
+                    age:'23'
+                }
+            },{
+                el:'#vm2',
+                data:{
+                    email:'',
+                    name:''
                 }
             });
-            window.vm = vm;
+            window.vm = vm;*/
+            var vm2 = new Vue({
+                el:'#vm2',
+                data:{
+                    email:'',
+                    name:'',
+                    age:21,
+                    todos:[
+                    {
+                        name:'penghui',
+                        description:'me'
+                    }
+                ]
+                },
+                methods:{
+                    register: function (){
+                        //alert(JSON.stringify(this.$data));
+                        alert(this.$data);
+                    }
+                },
+            
+            });
+            //vm2.todos[0].name = "peng";
+            //vm2.todos[0].description = "me";
         </script>
     </body>
 </html>
