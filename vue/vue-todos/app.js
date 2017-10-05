@@ -1,5 +1,7 @@
 //导入koa
 const Koa = require('koa');
+const bodyParser = require('koa-bodyparser');
+const controller = require('./controller');
 
 //创建一个koa对象表示web app本身
 const app = new Koa();
