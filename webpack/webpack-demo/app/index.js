@@ -3,4 +3,6 @@
 
 //es6
 import sum from './sum'
+import './delImage'
+
 console.log(sum(1,2))
