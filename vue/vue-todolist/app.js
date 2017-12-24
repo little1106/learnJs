@@ -1,4 +1,15 @@
+var inputDesign = {
+    template: ` <span>
+                    <select>
+                        <option value=''></option>
+                        <option value=''></option>
+                        <option value=''></option>  
+                    </select>
+                    <input>
+                </span>`
+} 
 
+//父子组件交互
 var sonEmit = {
     template: `<p><span>sonEmit: </span><input v-model='messageSon' v-on:input='emitMessage()'></p>`,
     data: function(){
